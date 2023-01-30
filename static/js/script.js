@@ -1,8 +1,12 @@
-$(document).ready(function(){
-    $('.sidenav').sidenav({edge: "right"});
-  });
+/*
+    jQuery for MaterializeCSS initialization
+*/
+/*
+    jQuery for MaterializeCSS initialization
+*/
 
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
-       
+$(document).ready(function () {
+  $(".sidenav").sidenav({edge: "right"});
+  $(".collapsible").collapsible();
+  $(".tooltipped").tooltip();
+});
